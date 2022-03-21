@@ -29,10 +29,16 @@ article h1{
   margin-bottom: 0;
   padding-bottom: 0;
 }
-article p{
+article header p{
   font-style: italic;
   padding-top: 0;
   padding-bottom:.5em
+  border-bottom: .8px solid #999;
+}
+
+blockquote{
+  font-size: 1.125rem;
+  color: #555;
 }
 .quote {
   color: #999;
