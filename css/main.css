@@ -6,41 +6,50 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
   line-height: 1.3;
   padding-left: 1em;
   padding-right: 1em;
 }
- article{
-   font-family: "Crimson text", italic;
+ article {
+   font-family: "Crimson Text", italic;
    color: #222;
  }
 
- article header{
+ article header {
    font-weight: normal;
    font-style: normal;
  }
 
-article h1{
+article h1 {
   font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-article header p{
+article header p {
   font-style: italic;
   padding-top: 0;
-  padding-bottom:.5em
+  padding-bottom:1.25em;
   border-bottom: .8px solid #999;
+  margin-top: 0;
 }
 
-blockquote{
+blockquote {
   font-size: 1.125rem;
   color: #555;
 }
 .quote {
   color: #999;
   font-size: 1em;
+}
+article p {
+font-style: normal;
+}
+
+article ol{
+  list-style-position: inside;
+  padding-left: 0;
 }
