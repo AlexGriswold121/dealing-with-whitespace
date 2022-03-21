@@ -45,8 +45,8 @@ blockquote {
   color: #999;
   font-size: 1em;
 }
-article p {
-font-style: normal;
+article:last-child {
+border-bottom: .8px solid #999;
 }
 
 article ol{
